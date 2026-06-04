@@ -1,0 +1,26 @@
+Analisi quadro RU - Beni 4.0
+============================
+
+Uso rapido
+----------
+1. Trascina un PDF della dichiarazione sopra il file Avvia_RU.bat.
+2. Attendi l'analisi.
+3. Premi INVIO quando la finestra chiede di chiudere.
+
+File generati
+-------------
+- Risultati_RU5.txt: dettaglio dei crediti RU5 rilevati per ciascun PDF analizzato.
+- Riepilogo_RU5_per_codice.txt: riepilogo complessivo dei crediti RU5 per codice.
+- Investimenti_RU.txt: investimenti rilevati nei righi RU130 e RU140.
+
+Portabilita
+-----------
+La cartella include una versione portatile di Python nella sottocartella python.
+Per spostare il progetto su un altro PC, copiare tutta la cartella Script_RU senza separare i file.
+
+Note operative
+--------------
+- Non serve installare Python sul PC.
+- Non servono servizi online o abbonamenti.
+- Il parser dipende dal testo estratto dal PDF: se il layout cambia, alcuni dati possono richiedere verifica manuale.
+- I codici tributo non riconosciuti vengono indicati come DA VERIFICARE.
