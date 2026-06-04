@@ -43,3 +43,14 @@ Le cartelle `__pycache__` non sono necessarie alla portabilita perche Python le 
 Alternative considerate: Versionare tutta la cartella senza esclusioni; scartato perche avrebbe aumentato peso e rumore del repository.
 
 Impatto: Il repository resta piu leggero e pulito, mantenendo comunque il runtime Python portatile e le dipendenze necessarie all'uso offline.
+
+## 2026-06-04
+
+Decisione: Aggiungere `README.md` per la pagina GitHub mantenendo anche `LEGGIMI.txt` per l'uso locale.
+
+Motivazione:
+GitHub mostra automaticamente `README.md` nella pagina del repository, rendendo il progetto comprensibile a collaboratori e nuove sessioni. `LEGGIMI.txt` resta utile per chi copia la cartella su Windows e vuole istruzioni immediate senza aprire GitHub.
+
+Alternative considerate: Usare solo `LEGGIMI.txt`; scartato perche meno efficace come presentazione del repository GitHub.
+
+Impatto: La documentazione resta semplice ma copre due contesti: repository online e uso portabile locale.

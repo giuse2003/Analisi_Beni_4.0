@@ -13,6 +13,7 @@ Il progetto esistente `Script_RU` e stato preparato come base del repository `An
 - `Avvia_RU.bat`: launcher Windows per avviare lo script con Python portatile.
 - `Analizza_RU.py`: parser principale dei PDF basato su PyMuPDF/fitz.
 - `python/`: runtime Python portatile con dipendenze incluse.
+- `README.md`: descrizione GitHub del progetto, uso rapido, struttura e limiti.
 - `LEGGIMI.txt`: istruzioni operative essenziali.
 - File generati in uso: `Risultati_RU5.txt`, `Riepilogo_RU5_per_codice.txt`, `Investimenti_RU.txt`.
 
@@ -29,12 +30,12 @@ Il progetto resta a costo zero, senza servizi a pagamento, VPS o abbonamenti. Ev
 - Controlli iniziali su file mancante, file non PDF ed errori di apertura.
 - Fallback di estrazione denominazione azienda ripristinato.
 - Documentazione operativa minima con `LEGGIMI.txt`.
+- Documentazione GitHub con `README.md`.
 - Aggiunto `.gitignore` per escludere cache Python e file di output generati.
 - Rimosse le cache `__pycache__` per alleggerire il repository mantenendo la portabilita.
 
 ## Funzionalità In Corso
 
-- Pubblicazione del progetto su GitHub.
 - Miglioramento graduale dell'affidabilita del parser RU.
 - Valutazione di test leggeri con PDF o testi campione anonimizzati.
 
@@ -46,9 +47,9 @@ Il progetto resta a costo zero, senza servizi a pagamento, VPS o abbonamenti. Ev
 
 ## Prossimi Passi
 
-- Completare commit e push su branch `main`.
 - Aggiungere test leggeri con dati anonimizzati.
+- Valutare una prima separazione leggera tra parsing e scrittura output.
 
 ## Ultimo Aggiornamento
 
-2026-06-04 10:45 +02:00
+2026-06-04 10:50 +02:00
